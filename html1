@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Judô</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1 {
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Judô: O Caminho do Espírito</h1>
+            <nav>
+                <a href="#sobre" style="color: white; margin-right: 10px;">Sobre</a>
+                <a href="#galeria" style="color: white; margin-right: 10px;">Galeria</a>
+                <a href="#contato" style="color: white;">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>O que é o Judô?</h2>
+            <p>O judô é uma arte marcial e esporte de combate criado no Japão por Jigoro Kano em 1882. A palavra "judô" significa "caminho suave" e o objetivo principal é usar a força do oponente contra ele. É uma prática que enfatiza o respeito, a disciplina e o aperfeiçoamento pessoal.</p>
+            <p>O judô é praticado em um tatame e envolve técnicas de arremesso, imobilização, estrangulamento e chave de braço. É conhecido por seu sistema de graduação, que utiliza faixas coloridas para indicar o nível de habilidade do praticante.</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300x200" alt="Imagem 1">
+                <img src="https://via.placeholder.com/300x200" alt="Imagem 2">
+                <img src="https://via.placeholder.com/300x200" alt="Imagem 3">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações sobre judô, você pode entrar em contato conosco através do e-mail: <a href="mailto:contato@judoclube.com">contato@judoclube.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Judô Clube. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
